@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Prediction</title>
+</head>
+<body>
+
+<h2>Energy Prediction System</h2>
+
+<form action="/predict_form" method="post">
+    Hour: <input type="number" name="hour"><br><br>
+    Day: <input type="number" name="day"><br><br>
+    <input type="submit" value="Predict">
+</form>
+
+<h3>{{ prediction_text }}</h3>
+
+</body>
+</html>
